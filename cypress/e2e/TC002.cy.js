@@ -180,7 +180,7 @@ describe('Test TC02', () => {
         .and('contain', 'Only numbers, +, and - are allowed')
     })
 
-    it.only('TC02008. User mengisi Work Information dengan Occupation tidak valid', () => {
+    it('TC02008. User mengisi Work Information dengan Occupation tidak valid', () => {
         cy.get(':nth-child(1) > .column > .img-icon')
         .click()
         cy.wait(5000)
